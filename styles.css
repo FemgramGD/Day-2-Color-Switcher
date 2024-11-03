@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 25px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #890000;
+    color: #fff;
+}
+
+button:active {
+    background-color: #ff0000;
+}
+
+
+::backdrop
+{
+    background-color: #fff700;
+}
